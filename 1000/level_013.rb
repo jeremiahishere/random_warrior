@@ -4,10 +4,10 @@
 
 description "This level was randomly generated."
 tip "No tip for you."
-hint "No hint for you."
+clue"No hint for you."
 
 time_bonus 13
-ace_bonus 65
+ace_score 65
 size 13, 1
 stairs 5, 0
 

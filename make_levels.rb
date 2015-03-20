@@ -17,7 +17,7 @@ class MakeLevels
     @levels.times do |i|
       level_size = @minimum_width + i
       level = generate_level(level_size)
-      filename = "level_#{level_size.to_s.rjust(3, '0')}"
+      filename = "level_#{level_size.to_s.rjust(3, '0')}.rb"
 
       puts "Generating level #{filename}"
       puts level.to_file
@@ -72,10 +72,10 @@ class MakeLevels
 
 description \"This level was randomly generated.\"
 tip \"No tip for you.\"
-hint \"No hint for you.\"
+clue\"No hint for you.\"
 
 time_bonus #{@size}
-ace_bonus #{@size * 5}
+ace_score #{@size * 5}
 size #{@size}, 1
 stairs #{@stairs_space}, 0
 

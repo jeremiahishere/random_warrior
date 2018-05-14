@@ -44,6 +44,7 @@ class MakeLevels
   end
 
   class Level
+    UNSET = nil
     EMPTY = ' '
     STAIRS = '>'
     PLAYER = '@'
@@ -59,13 +60,16 @@ class MakeLevels
       @randomizer = randomizer
 
       @level = []
-      @size.times { @level << EMPTY }
+      @size.times { @level << UNSET }
 
       @player_space = nil
       @stairs_space = nil
     end
 
     def to_file
+      # remove all unset spaces
+      @level.collect! { |space| space == UNSET ? EMPTY : space }
+
       output = "#  #{'-' * @size}
 # |#{@level.join}|
 #  #{'-' * @size}
@@ -96,6 +100,10 @@ warrior #{@player_space}, 0, :east
       if !@player_space
         space = find_free_space
         @level[space] = PLAYER
+        @level[space - 1] = EMPTY
+        @level[space - 2] = EMPTY
+        @level[space + 1] = EMPTY
+        @level[space + 2] = EMPTY
         @player_space = space
       end
     end
@@ -111,7 +119,14 @@ warrior #{@player_space}, 0, :east
 
     def add_obstacle
       obstacle = obstacles[@randomizer.rand(obstacles.count)]
-      @level[find_free_space] = obstacle
+      space = find_free_space
+      if obstacle == WIZARD && neighbors(space) >= 1
+        add_obstacle # recurse because this makes the puzzle too difficult
+      elsif obstacle == ARCHER && neighbors(space) >= 2
+        add_obstacle # recurse because this makes the puzzle too difficult
+      else
+        @level[space] = obstacle
+      end
     end
 
     protected
@@ -119,10 +134,26 @@ warrior #{@player_space}, 0, :east
     def find_free_space
       while true
         space = @randomizer.rand(@size)
-        if @level[space] == EMPTY
+        if @level[space] == UNSET
           return space
         end
       end
+    end
+
+    def neighbors(space)
+      neighbors = 0
+
+      if space + 1 < @size && obstacles.include?(@level[space + 1])
+        puts "found a right hand neighbor"
+        neighbors += 1
+      end
+
+      if space > 0 && obstacles.include?(@level[space - 1])
+        puts "found a left hand neighbor"
+        neighbors += 1
+      end
+
+      neighbors
     end
 
     def obstacles

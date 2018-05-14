@@ -1,0 +1,157 @@
+#  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# |         sw s CC  a   s     s  SS     a   s    w C    w        C  a C  a      sS  as C  w      a     @         S      wCa            s Sw    a C w Cw      C      w sS        s w       wS  S     w   w  C       S   w S         s  s  a        s            S C  s  aw a    s S                  S         a  aS  >w ssC    a  s C     w     as C           w S         s   C a          s   s  sa  s     C  w  s   a  aw  C       S       aC           w C  w       s         asCC   C    ws    a    s   C s s            wa S a    s  S    Sa a C   C S aS S sSa      w  S  SaS     ws   C   |
+#  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+description "This level was randomly generated."
+tip "No tip for you."
+clue"No hint for you."
+
+time_bonus 576
+ace_score 2880
+size 576, 1
+stairs 307, 0
+
+warrior 101, 0, :east
+
+unit :sludge, 9, 0, :east
+unit :wizard, 10, 0, :east
+unit :sludge, 12, 0, :east
+unit :captive, 14, 0, :east
+unit :captive, 15, 0, :east
+unit :archer, 18, 0, :east
+unit :sludge, 22, 0, :east
+unit :sludge, 28, 0, :east
+unit :thick_sludge, 31, 0, :east
+unit :thick_sludge, 32, 0, :east
+unit :archer, 38, 0, :east
+unit :sludge, 42, 0, :east
+unit :wizard, 47, 0, :east
+unit :captive, 49, 0, :east
+unit :wizard, 54, 0, :east
+unit :captive, 63, 0, :east
+unit :archer, 66, 0, :east
+unit :captive, 68, 0, :east
+unit :archer, 71, 0, :east
+unit :sludge, 78, 0, :east
+unit :thick_sludge, 79, 0, :east
+unit :archer, 82, 0, :east
+unit :sludge, 83, 0, :east
+unit :captive, 85, 0, :east
+unit :wizard, 88, 0, :east
+unit :archer, 95, 0, :east
+unit :thick_sludge, 111, 0, :west
+unit :wizard, 118, 0, :west
+unit :captive, 119, 0, :west
+unit :archer, 120, 0, :west
+unit :sludge, 133, 0, :west
+unit :thick_sludge, 135, 0, :west
+unit :wizard, 136, 0, :west
+unit :archer, 141, 0, :west
+unit :captive, 143, 0, :west
+unit :wizard, 145, 0, :west
+unit :captive, 147, 0, :west
+unit :wizard, 148, 0, :west
+unit :captive, 155, 0, :west
+unit :wizard, 162, 0, :west
+unit :sludge, 164, 0, :west
+unit :thick_sludge, 165, 0, :west
+unit :sludge, 174, 0, :west
+unit :wizard, 176, 0, :west
+unit :wizard, 184, 0, :west
+unit :thick_sludge, 185, 0, :west
+unit :thick_sludge, 188, 0, :west
+unit :wizard, 194, 0, :west
+unit :wizard, 198, 0, :west
+unit :captive, 201, 0, :west
+unit :thick_sludge, 209, 0, :west
+unit :wizard, 213, 0, :west
+unit :thick_sludge, 215, 0, :west
+unit :sludge, 225, 0, :west
+unit :sludge, 228, 0, :west
+unit :archer, 231, 0, :west
+unit :sludge, 240, 0, :west
+unit :thick_sludge, 253, 0, :west
+unit :captive, 255, 0, :west
+unit :sludge, 258, 0, :west
+unit :archer, 261, 0, :west
+unit :wizard, 262, 0, :west
+unit :archer, 264, 0, :west
+unit :sludge, 269, 0, :west
+unit :thick_sludge, 271, 0, :west
+unit :thick_sludge, 290, 0, :west
+unit :archer, 300, 0, :west
+unit :archer, 303, 0, :west
+unit :thick_sludge, 304, 0, :west
+unit :wizard, 308, 0, :west
+unit :sludge, 310, 0, :west
+unit :sludge, 311, 0, :west
+unit :captive, 312, 0, :west
+unit :archer, 317, 0, :west
+unit :sludge, 320, 0, :west
+unit :captive, 322, 0, :west
+unit :wizard, 328, 0, :west
+unit :archer, 334, 0, :west
+unit :sludge, 335, 0, :west
+unit :captive, 337, 0, :west
+unit :wizard, 349, 0, :west
+unit :thick_sludge, 351, 0, :west
+unit :sludge, 361, 0, :west
+unit :captive, 365, 0, :west
+unit :archer, 367, 0, :west
+unit :sludge, 378, 0, :west
+unit :sludge, 382, 0, :west
+unit :sludge, 385, 0, :west
+unit :archer, 386, 0, :west
+unit :sludge, 389, 0, :west
+unit :captive, 395, 0, :west
+unit :wizard, 398, 0, :west
+unit :sludge, 401, 0, :west
+unit :archer, 405, 0, :west
+unit :archer, 408, 0, :west
+unit :wizard, 409, 0, :west
+unit :captive, 412, 0, :west
+unit :thick_sludge, 420, 0, :west
+unit :archer, 428, 0, :west
+unit :captive, 429, 0, :west
+unit :wizard, 441, 0, :west
+unit :captive, 443, 0, :west
+unit :wizard, 446, 0, :west
+unit :sludge, 454, 0, :west
+unit :archer, 464, 0, :west
+unit :sludge, 465, 0, :west
+unit :captive, 466, 0, :west
+unit :captive, 467, 0, :west
+unit :captive, 471, 0, :west
+unit :wizard, 476, 0, :west
+unit :sludge, 477, 0, :west
+unit :archer, 482, 0, :west
+unit :sludge, 487, 0, :west
+unit :captive, 491, 0, :west
+unit :sludge, 493, 0, :west
+unit :sludge, 495, 0, :west
+unit :wizard, 508, 0, :west
+unit :archer, 509, 0, :west
+unit :thick_sludge, 511, 0, :west
+unit :archer, 513, 0, :west
+unit :sludge, 518, 0, :west
+unit :thick_sludge, 521, 0, :west
+unit :thick_sludge, 526, 0, :west
+unit :archer, 527, 0, :west
+unit :archer, 529, 0, :west
+unit :captive, 531, 0, :west
+unit :captive, 535, 0, :west
+unit :thick_sludge, 537, 0, :west
+unit :archer, 539, 0, :west
+unit :thick_sludge, 540, 0, :west
+unit :thick_sludge, 542, 0, :west
+unit :sludge, 544, 0, :west
+unit :thick_sludge, 545, 0, :west
+unit :archer, 546, 0, :west
+unit :wizard, 553, 0, :west
+unit :thick_sludge, 556, 0, :west
+unit :thick_sludge, 559, 0, :west
+unit :archer, 560, 0, :west
+unit :thick_sludge, 561, 0, :west
+unit :wizard, 567, 0, :west
+unit :sludge, 568, 0, :west
+unit :captive, 572, 0, :west
